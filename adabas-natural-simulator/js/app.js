@@ -1,15 +1,5 @@
-function Database() {
-	
-}
 
-function File() {
-	
-}
-
-function Field() {
-	
-}
-
-function name() {
-	
-}
+// 
+var database = new Database();
+database.setName('testedb');
+database.init();
