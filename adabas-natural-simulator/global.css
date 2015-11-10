@@ -1,0 +1,12 @@
+terminal {
+  background-color: black;
+	color: green;
+
+}
+
+input[type="text"] {
+  background-color : black;
+  color: green;
+  border: 0px solid;
+  font-size: 100%;
+}

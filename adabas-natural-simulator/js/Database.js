@@ -3,7 +3,7 @@ var Database = function(){
 	var files = [];
 
 	this.setName = function(newName){
-		console.log('setting database name to ' + newName);
+		log('setting database name to ' + newName);
 	 	this.name = newName;
 	};
 
@@ -12,7 +12,7 @@ var Database = function(){
 	};    
 
 	this.init = function(){
-		console.log('init database ' + this.name);
+		log('init database ' + this.name);
 	};
 
 };
